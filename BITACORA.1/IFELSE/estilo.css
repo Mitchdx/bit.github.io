@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+}
+nav{
+    width: 1920px;
+    height: 40px;
+    background-color: rgb(82, 5, 18);
+}
+header{
+    width: 1920px;
+    height: 100%;
+}
+
+
+#encabezado{
+    width: 1920px;
+    height: 520px;
+    background-color: black;
+    text-align: center;
+    background-image: url(pexels-picjumbo-com-55570-196646.jpg);
+    background-position: 0px;
+    
+}
+
+
+
+section{
+    width: 1920px;
+    height: 1400px;
+    text-align: center;
+    background-color:#141114;
+}
+
+.cuadro{
+    width: 1920px;
+    height: 500px;
+    margin: 10px;
+    float: left;
+}
+
+.foto{
+    
+    margin-top: 80px;
+    width: 820px;
+    height: 500px;
+    float: left;
+    margin-left: 50px;
+    box-shadow: #141114;
+    overflow: hidden;
+    opacity: 1;
+
+}
+.fotoa{
+    margin-top: 10px;
+    width: 820px;
+    height: 500px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+.texto{
+    margin-top: 80px;
+    width: 900px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+
+.textoa{
+    width: 900px;
+    height: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align:justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+
+.dropdown {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    display: none;
+}
+
+.dropdown li {
+    width: 200px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+.nav-link:hover, .dropdown li a:hover {
+    background-color: #555;
+}
+
+footer{
+    width: 1920px;
+    height:178px;
+    background-color: rgb(190, 190, 190);
+}
+
+.foto:hover{
+    opacity: .3;
+}
+.fotoa:hover{
+    opacity: .3;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Temas</a>
+                <ul class="dropdown">
+                    <li><a href="../JSBASICO/index.html">JS Conceptos Basicos</a></li>
+                    <li><a href="../index.html">DOM</a></li>
+                    <li><a href="#">Referencia con JS</a></li>
+                    <li><a href="../STYLE/index.html">Style</a></li>
+                    <li><a href="../EVENTOS/index.html">Eventos</a></li>
+                    <li><a href="../IFELSE/index.html">If Else</a></li>
+                    <li><a href="../VIEWPORT/index.html">Viewport</a></li>
+                    <li><a href="../MEDIA/index.html">@media</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div id="encabezado">
+        </div>
+    </header>
+
+
+    <section>
+        <div class="cuadro">
+            <div class="foto">
+                <img src="pexels-paras-4218883.jpg" width="95%">
+            </div>
+            <div class="texto">
+                <h2>&#60;Referenciar con JavaScript&#62;</h2>
+                <h3>Es cómo acceder a elementos específicos del DOM (Document Object Model) desde un script de JavaScript. Esto es esencial para manipular la estructura, contenido, y estilo de una página web de manera dinámica.</h3>
+                <h2> &#60;Métodos Comunes&#62;</h2>
+                <h3>document.getElementById(id): Devuelve el elemento del DOM que tiene el id especificado. Es una forma rápida y eficiente de acceder a un elemento único.</h3>
+                <h2> &#60;Metodo #1&#62;</h2>
+                <h3>document.getElementsByClassName(className): Devuelve una colección de elementos (HTMLCollection) que comparten una misma clase (class). Este método devuelve todos los elementos con el nombre de clase especificado.<p> </h3>
+                <h2> &#60;Metodo #2&#62;</h2>
+                <h3>document.getElementsByTagName(tagName): Devuelve todos los elementos del documento con el nombre de etiqueta especificado (por ejemplo, todos los div, p, etc.). También devuelve una colección de elementos.</h3>
+ 
+            </div>
+        </div>
+        <div class="cuadro">
+            <div class="fotoa">
+                <img src="1.jpg" width="90%">
+            </div>
+            <div class="textoa">
+                <h2> &#60;Metodo #3&#62;</h2>
+                <h3>document.querySelector(selector): Devuelve el primer elemento que coincide con el selector CSS especificado. Puede ser un id, class, o cualquier selector válido de CSS.</h3>
+                <h2> &#60;Metodo #4&#62;</h2>
+                <h3>document.querySelectorAll(selector): Devuelve todos los elementos que coinciden con el selector CSS especificado. Devuelve una lista de nodos (NodeList) en lugar de una colección de HTML (HTMLCollection), permitiendo el uso de métodos de Array como forEach.</h3>
+                <h2> &#60;JS REF&#62;</h2>
+                <h3>JavaScript es fundamental para cualquier interacción dinámica en la web. Permite seleccionar elementos específicos del DOM y manipularlos, cambiando su contenido, estilo, o reaccionando a eventos del usuario.</h3>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>
